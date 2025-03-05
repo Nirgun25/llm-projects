@@ -1,0 +1,10 @@
+langchain
+langchain_community
+pypdf
+bs4
+pymupdf
+langchain-text-splitters
+langchain_huggingface
+faiss-cpu
+langchain_chroma
+youtube-transcript-api
