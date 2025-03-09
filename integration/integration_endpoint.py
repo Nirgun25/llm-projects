@@ -13,6 +13,8 @@ class integrationModel(BaseModel):
 
 @integration_app.post("/integration")
 def integration_endpoint(data:integrationModel):
-    return load_integration_data(data)
+    return load_integration_data(data.integration_type,
+                                 data.path,
+                                data.content)
 
 
